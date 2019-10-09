@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="simulator.QuantumStatesTest" time="0.029" tests="1" errors="1" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="simulator.QuantumStatesTest" time="0.022" tests="2" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -7,7 +7,7 @@
     <property name="java.specification.version" value="1.8"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.class.path" value="d:\OneDrive - ESCUELA COLOMBIANA DE INGENIERIA\CNYT\ParticulaLinea\target\test-classes;d:\OneDrive - ESCUELA COLOMBIANA DE INGENIERIA\CNYT\ParticulaLinea\target\classes;C:\Users\USER\.m2\repository\com\github\SebastianGoenaga\ExperimentSimulator\master-f7770075ba-1\ExperimentSimulator-master-f7770075ba-1.jar;C:\Users\USER\.m2\repository\com\github\SebastianGoenaga\MatrixComplexCalculator\master-9453a23842-1\MatrixComplexCalculator-master-9453a23842-1.jar;C:\Users\USER\.m2\repository\com\github\SebastianGoenaga\ComplexCalculator\3c8348b5\ComplexCalculator-3c8348b5.jar;C:\Users\USER\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.5.1\junit-jupiter-engine-5.5.1.jar;C:\Users\USER\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\USER\.m2\repository\org\junit\platform\junit-platform-engine\1.5.1\junit-platform-engine-1.5.1.jar;C:\Users\USER\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\USER\.m2\repository\org\junit\platform\junit-platform-commons\1.5.1\junit-platform-commons-1.5.1.jar;C:\Users\USER\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.5.1\junit-jupiter-api-5.5.1.jar;"/>
+    <property name="java.class.path" value="D:\OneDrive - ESCUELA COLOMBIANA DE INGENIERIA\CNYT\ParticulaLinea\target\test-classes;D:\OneDrive - ESCUELA COLOMBIANA DE INGENIERIA\CNYT\ParticulaLinea\target\classes;C:\Users\USER\.m2\repository\com\github\SebastianGoenaga\MatrixComplexCalculator\master-ede0fc0dd7-1\MatrixComplexCalculator-master-ede0fc0dd7-1.jar;C:\Users\USER\.m2\repository\com\github\SebastianGoenaga\ComplexCalculator\3c8348b5\ComplexCalculator-3c8348b5.jar;C:\Users\USER\.m2\repository\com\github\SebastianGoenaga\ExperimentSimulator\afeca25426\ExperimentSimulator-afeca25426.jar;C:\Users\USER\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.5.1\junit-jupiter-engine-5.5.1.jar;C:\Users\USER\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\USER\.m2\repository\org\junit\platform\junit-platform-engine\1.5.1\junit-platform-engine-1.5.1.jar;C:\Users\USER\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\USER\.m2\repository\org\junit\platform\junit-platform-commons\1.5.1\junit-platform-commons-1.5.1.jar;C:\Users\USER\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.5.1\junit-jupiter-api-5.5.1.jar;"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
@@ -18,20 +18,20 @@
     <property name="user.country" value="ES"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_191\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\USER\AppData\Local\Temp\surefire3922246905787408217\surefirebooter5092431932489065556.jar C:\Users\USER\AppData\Local\Temp\surefire3922246905787408217 2019-10-08T22-16-43_721-jvmRun1 surefire7251855310328276294tmp surefire_06601342351212459060tmp"/>
-    <property name="surefire.test.class.path" value="d:\OneDrive - ESCUELA COLOMBIANA DE INGENIERIA\CNYT\ParticulaLinea\target\test-classes;d:\OneDrive - ESCUELA COLOMBIANA DE INGENIERIA\CNYT\ParticulaLinea\target\classes;C:\Users\USER\.m2\repository\com\github\SebastianGoenaga\ExperimentSimulator\master-f7770075ba-1\ExperimentSimulator-master-f7770075ba-1.jar;C:\Users\USER\.m2\repository\com\github\SebastianGoenaga\MatrixComplexCalculator\master-9453a23842-1\MatrixComplexCalculator-master-9453a23842-1.jar;C:\Users\USER\.m2\repository\com\github\SebastianGoenaga\ComplexCalculator\3c8348b5\ComplexCalculator-3c8348b5.jar;C:\Users\USER\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.5.1\junit-jupiter-engine-5.5.1.jar;C:\Users\USER\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\USER\.m2\repository\org\junit\platform\junit-platform-engine\1.5.1\junit-platform-engine-1.5.1.jar;C:\Users\USER\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\USER\.m2\repository\org\junit\platform\junit-platform-commons\1.5.1\junit-platform-commons-1.5.1.jar;C:\Users\USER\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.5.1\junit-jupiter-api-5.5.1.jar;"/>
+    <property name="sun.java.command" value="C:\Users\USER\AppData\Local\Temp\surefire8685690444711999630\surefirebooter9082997534874619163.jar C:\Users\USER\AppData\Local\Temp\surefire8685690444711999630 2019-10-09T00-47-09_874-jvmRun1 surefire2169615310588535942tmp surefire_06657041330225962846tmp"/>
+    <property name="surefire.test.class.path" value="D:\OneDrive - ESCUELA COLOMBIANA DE INGENIERIA\CNYT\ParticulaLinea\target\test-classes;D:\OneDrive - ESCUELA COLOMBIANA DE INGENIERIA\CNYT\ParticulaLinea\target\classes;C:\Users\USER\.m2\repository\com\github\SebastianGoenaga\MatrixComplexCalculator\master-ede0fc0dd7-1\MatrixComplexCalculator-master-ede0fc0dd7-1.jar;C:\Users\USER\.m2\repository\com\github\SebastianGoenaga\ComplexCalculator\3c8348b5\ComplexCalculator-3c8348b5.jar;C:\Users\USER\.m2\repository\com\github\SebastianGoenaga\ExperimentSimulator\afeca25426\ExperimentSimulator-afeca25426.jar;C:\Users\USER\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.5.1\junit-jupiter-engine-5.5.1.jar;C:\Users\USER\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\USER\.m2\repository\org\junit\platform\junit-platform-engine\1.5.1\junit-platform-engine-1.5.1.jar;C:\Users\USER\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\USER\.m2\repository\org\junit\platform\junit-platform-commons\1.5.1\junit-platform-commons-1.5.1.jar;C:\Users\USER\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.5.1\junit-jupiter-api-5.5.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\USER"/>
     <property name="user.language" value="es"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_191\jre"/>
-    <property name="basedir" value="d:\OneDrive - ESCUELA COLOMBIANA DE INGENIERIA\CNYT\ParticulaLinea"/>
+    <property name="basedir" value="D:\OneDrive - ESCUELA COLOMBIANA DE INGENIERIA\CNYT\ParticulaLinea"/>
     <property name="file.separator" value="\"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\USER\AppData\Local\Temp\surefire3922246905787408217\surefirebooter5092431932489065556.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\USER\AppData\Local\Temp\surefire8685690444711999630\surefirebooter9082997534874619163.jar"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_191\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_191\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_191\jre\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -47,7 +47,7 @@
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="java.io.tmpdir" value="C:\Users\USER\AppData\Local\Temp\"/>
     <property name="java.version" value="1.8.0_191"/>
-    <property name="user.dir" value="d:\OneDrive - ESCUELA COLOMBIANA DE INGENIERIA\CNYT\ParticulaLinea"/>
+    <property name="user.dir" value="D:\OneDrive - ESCUELA COLOMBIANA DE INGENIERIA\CNYT\ParticulaLinea"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
@@ -60,8 +60,6 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="likeliHoodTest" classname="simulator.QuantumStatesTest" time="0.024">
-    <error type="java.lang.StackOverflowError">java.lang.StackOverflowError
-</error>
-  </testcase>
+  <testcase name="likeliHoodTest" classname="simulator.QuantumStatesTest" time="0.017"/>
+  <testcase name="transitionAmplitudesTest" classname="simulator.QuantumStatesTest" time="0"/>
 </testsuite>

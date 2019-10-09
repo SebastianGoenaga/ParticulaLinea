@@ -37,11 +37,11 @@
     </build>
 
     <dependencies>
-        <dependency>
+        <!-- <dependency>
             <groupId>com.github.SebastianGoenaga</groupId>
             <artifactId>ExperimentSimulator</artifactId>
             <version>master-SNAPSHOT</version>
-        </dependency>
+        </dependency> -->
         <dependency>
             <groupId>com.github.SebastianGoenaga</groupId>
             <artifactId>MatrixComplexCalculator</artifactId>
